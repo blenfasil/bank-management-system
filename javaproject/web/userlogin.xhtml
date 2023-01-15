@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:a="http://xmlns.jcp.org/jsf/passthrough">
+    
+    <h:head>
+        <title>user login</title>
+        <style>
+           .un{margin: 30px 0} 
+            form{ padding-top: 50px;
+            padding-left: 500px;
+            padding-right: 30px;
+            padding-bottom: 50px;
+            }
+            
+            body{
+            background-image: url("ima/p.jpg");
+            background-size: cover
+        }
+            
+            
+        </style>
+    </h:head>
+    <h:body>
+        <h:form>
+            <h:inputText class="un" a:placeholder="user name" ></h:inputText><br></br>
+            <h:inputSecret class="un" a:placeholder="PASSWORD"></h:inputSecret><br></br>
+            <h:commandButton class="un" style="width: 150px" value="LOGIN" a:placeholder="LOGIN"></h:commandButton>
+        </h:form>
+    </h:body>
+</html>
+

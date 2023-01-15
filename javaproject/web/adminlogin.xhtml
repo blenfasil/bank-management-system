@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>adminlogin</title>
+         <style>
+            body{
+                
+                   background-color: #99ccff; 
+                  background-image: url("https://www.tab-beim-bundestag.de/img/Veranstaltungen/e-voting-qu.jpg" ); margin: 0;
+                  height: 100vh;
+                  display: flex;
+                  align-item:center;
+                  justify-content:center;
+                  background: cornsilk;
+            }
+            
+            ul li{
+                box-sizing: 3em;
+                width: 15em;
+                height: 3em;
+                font-size: 20px;
+                border-radius: 0.5em;
+                margin: 0.5em;
+                box-shadow: 0 0 1cm rgb(0,0,0,0,.2);
+                color: white;
+                font-family: sans-serif;
+                text-transform: capitalize;
+                line-height: 3em;
+                transition: 0.3s;
+                cursor: pointer;
+              
+            }
+            ul li:nth-child(odd){
+                background: linear-gradient(to 
+                    right,orange,tomato);
+                text-align: left;
+                padding-left: 10%;
+                    transform:perspective(500px)
+                    rotatey(45deg);
+            }
+           ul li:nth-child(even){
+                background: linear-gradient(to 
+                    right,orange,tomato);
+                text-align: right;
+                padding-left: 10%;
+                    transform:perspective(500px)
+                    rotatey(-45deg);
+                    
+            }
+            ul li:nth-child(odd):hover{
+                 transform:perspective(200px)
+                 rotatey(45deg);
+                   padding-left: 5%;
+            }
+             ul li:nth-child(even):hover{
+                 transform:perspective(200px)
+                 rotatey(-45deg);
+                   padding-left: 5%;
+            div{
+                background-color: #99ccff; 
+                  background-image: url("https://www.tab-beim-bundestag.de/img/Veranstaltungen/e-voting-qu.jpg" );
+                 
+            }
+            
+                .bute {
+  background: #3498db;
+ 
+  
+  color: #ccccff;
+  font-size: 20px;
+  padding-top: 56PX;
+  
+ ;
+}
+
+.bute:hover {
+    background: #ff66cc;
+  text-decoration: none;
+}
+               </style>
+    </h:head>
+    <h:body>
+        <ul>
+        <h1>admin login</h1>
+        <li>login</li>
+        <li>pro</li>
+        <li>contacte</li>
+        </ul>
+    </h:body>
+</html>
+
